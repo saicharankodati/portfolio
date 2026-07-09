@@ -1,0 +1,172 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  --theme-bg-main: #f8fafc;        /* slate-50 (perfect light canvas) */
+  --theme-text-main: #0f172a;      /* slate-900 (ultra legible) */
+  
+  --theme-bg-sidebar: #ffffff;      /* Pure white light sidebar for elegant contrast */
+  --theme-text-sidebar: #0f172a;    /* slate-900 */
+  --theme-border-sidebar: #e2e8f0;  /* slate-200 */
+  
+  --theme-bg-card: #ffffff;         /* pure white cards */
+  --theme-border-card: #e2e8f0;     /* slate-200 */
+  
+  --theme-bg-card-inner: #f1f5f9;   /* slate-100 */
+  --theme-border-card-inner: #cbd5e1; /* slate-300 */
+  
+  --theme-text-muted: #1e293b;      /* slate-800 */
+  --theme-text-light: #475569;      /* slate-600 */
+}
+
+.dark {
+  --theme-bg-main: #030712;        /* deep pitch black */
+  --theme-text-main: #f8fafc;      /* pure off-white */
+  
+  --theme-bg-sidebar: #0b0f19;      /* very dark slate/navy */
+  --theme-text-sidebar: #f8fafc;    /* slate-50 */
+  --theme-border-sidebar: #1e293b;  /* slate-800 */
+  
+  --theme-bg-card: #111827;         /* slate-900 */
+  --theme-border-card: #1f2937;     /* slate-800 */
+  
+  --theme-bg-card-inner: #1f2937;   /* slate-800 */
+  --theme-border-card-inner: #374151; /* slate-700 */
+  
+  --theme-text-muted: #f1f5f9;      /* light slate-100 */
+  --theme-text-light: #cbd5e1;      /* slate-300 */
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-theme-bg: var(--theme-bg-main);
+  --color-theme-text: var(--theme-text-main);
+  --color-theme-sidebar: var(--theme-bg-sidebar);
+  --color-theme-sidebar-text: var(--theme-text-sidebar);
+  --color-theme-sidebar-border: var(--theme-border-sidebar);
+  --color-theme-card: var(--theme-bg-card);
+  --color-theme-card-border: var(--theme-border-card);
+  --color-theme-card-inner: var(--theme-bg-card-inner);
+  --color-theme-bg-card-inner: var(--theme-bg-card-inner);
+  --color-theme-card-inner-border: var(--theme-border-card-inner);
+  --color-theme-muted: var(--theme-text-muted);
+  --color-theme-light: var(--theme-text-light);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--theme-bg-sidebar);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--theme-border-card-inner);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0ea5e9;
+}
+
+/* Custom animations and styling utilities */
+.typewriter-cursor::after {
+  content: '|';
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+html, body {
+  scroll-behavior: smooth;
+  background-color: var(--theme-bg-main);
+  color: var(--theme-text-main);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(2deg);
+  }
+}
+
+@keyframes float-delayed {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(-2deg);
+  }
+}
+
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(1deg);
+  }
+}
+
+.animate-float-1 {
+  animation: float-gentle 6s ease-in-out infinite;
+}
+
+.animate-float-2 {
+  animation: float-delayed 8s ease-in-out infinite;
+}
+
+.animate-float-3 {
+  animation: float-slow 10s ease-in-out infinite;
+}
+
+/* Responsive adjustments for custom elements */
+.avatar-bg-img {
+  transform: scale(1.15) translate(-15px, 30px);
+  opacity: 0.15;
+  transition: all 0.7s ease-in-out;
+}
+
+.dark .avatar-bg-img {
+  opacity: 0.12;
+}
+
+@media (min-width: 1024px) {
+  .avatar-bg-img {
+    transform: scale(1.2) translate(-50px, 100px);
+    opacity: 1.0;
+  }
+  .dark .avatar-bg-img {
+    opacity: 1.0;
+  }
+}
+
+.hero-badge-row {
+  transform: translate(0px, 0px);
+  transition: all 0.5s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .hero-badge-row {
+    transform: translate(-5px, -40px);
+  }
+}
+
