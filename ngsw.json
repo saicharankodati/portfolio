@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1783690745865,
+  "timestamp": 1783691622942,
   "index": "/portfolio/index.html",
   "assetGroups": [
     {
@@ -74,9 +74,9 @@
     "/portfolio/images/product_lifecycle.jpg": "874ad663175a1fdc3dd616e75369ec3fa8de8fc4",
     "/portfolio/images/sales_engagement.jpg": "2b263e2bc00caadca93e2847ccda8dfc32e7a992",
     "/portfolio/images/workflow_automation.jpg": "4863f4a1069bc03860986c9a0e3ff3dd55946a61",
-    "/portfolio/index.html": "a939f04b5db8a03c6aa197a27b74d69f655dd5b1",
+    "/portfolio/index.html": "60dabf1b80a5a6b5b7ee663c84cde2b31147fc8a",
     "/portfolio/main-66HFPQVZ.js": "099736505416963dc0d291258eb709ae9abe133b",
-    "/portfolio/manifest.webmanifest": "6d28a35803b1b50482be6bfa8b537beac75466c0",
+    "/portfolio/manifest.webmanifest": "06d99ac1123e1b47d15ad025cd8a260823cef1e6",
     "/portfolio/portfolio_logo.jpg": "acd9b3607d7fc756af5a05a06625b406011c007b",
     "/portfolio/styles-H54AVUVA.css": "b51580082f29d5e84639b919d749274b4967e1d2",
     "/portfolio/sw.js": "19b2558e384c20d5e0017167eadabc4efe86248c"
