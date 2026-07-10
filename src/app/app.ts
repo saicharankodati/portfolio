@@ -874,7 +874,7 @@ export class App implements OnInit, OnDestroy {
       functions: 'Identity & Access Control Module: Architected and executed secure federated authentication, user migrations from Identity Server 4 to Microsoft Entra ID, token claims customization, and background directory synchronization workflows for internal and external constituents.',
       tags: ['Microsoft Azure', 'Service Principal', 'Token Configuration', 'User Groups', 'Angular', '.NET', 'Graph API'],
       link: '#',
-      imageUrl: '/images/iam_security.jpg',
+      imageUrl: './images/iam_security.jpg',
       category: 'gov'
     },
     {
@@ -887,7 +887,7 @@ export class App implements OnInit, OnDestroy {
       functions: 'Fund Management & Process Automation Module: Engineered automated capital preservation workflows, dynamic notification services, CQRS-based financial state machines, and highly performant data-orchestration layers for public trust funds.',
       tags: ['Angular', '.NET API Microservices', 'Mediator', 'CQRS', 'SQL Server', 'Azure Functions', 'Blob Storage'],
       link: '#',
-      imageUrl: '/images/workflow_automation.jpg',
+      imageUrl: './images/workflow_automation.jpg',
       category: 'gov'
     },
     {
@@ -900,7 +900,7 @@ export class App implements OnInit, OnDestroy {
       functions: 'Population Health Intelligence Engine: Delivered data-driven clinical strategy visualization tools, population wellness profiling systems, and complex statistical calculation engines to identify and mitigate employer healthcare risks.',
       tags: ['.NET Framework', 'MVC', 'Repository Pattern', 'SQL Server'],
       link: '#',
-      imageUrl: '/images/healthcare_analytics.jpg',
+      imageUrl: './images/healthcare_analytics.jpg',
       category: 'health'
     },
     {
@@ -913,7 +913,7 @@ export class App implements OnInit, OnDestroy {
       functions: 'Data Pipeline & Orchestration Portal: Designed reusable configuration modules, rule engines, and ETL metadata management structures for ingesting, transforming, and validating diverse healthcare claim sets.',
       tags: ['.NET Framework', 'MVC', 'Repository Pattern', 'SQL Server'],
       link: '#',
-      imageUrl: '/images/healthcare_config.jpg',
+      imageUrl: './images/healthcare_config.jpg',
       category: 'health'
     },
     {
@@ -926,7 +926,7 @@ export class App implements OnInit, OnDestroy {
       functions: 'Textile Lifecycle & Supply Chain Suite: Programmed modular supply chain, style planning, dynamic product specification, and manufacturing logistics modules, modernizing legacy enterprise systems into responsive web applications.',
       tags: ['Angular', '.NET Framework', 'MVVM', 'SQL Server', 'Silverlight Migration'],
       link: '#',
-      imageUrl: '/images/product_lifecycle.jpg',
+      imageUrl: './images/product_lifecycle.jpg',
       category: 'enterprise'
     },
     {
@@ -939,7 +939,7 @@ export class App implements OnInit, OnDestroy {
       functions: 'Omnichannel Outreach & Telephony Engine: Built multi-channel sequencing modules (Email, SMS, Voice, LinkedIn actions), integrated email/calendar sync with open/reply tracking, Twilio-based telephony services, and secure billing platforms.',
       tags: ['Angular', '.NET API', 'Gmail', 'Microsoft 365', 'Twilio', 'Salesforce', 'Stripe'],
       link: '#',
-      imageUrl: '/images/sales_engagement.jpg',
+      imageUrl: './images/sales_engagement.jpg',
       category: 'enterprise'
     },
     {
@@ -952,7 +952,7 @@ export class App implements OnInit, OnDestroy {
       functions: 'Compensation & Tax Processing Portal: Designed high-precision calculation modules for payroll run execution, direct deposit processing, tax withholding calculations, and employee-employer benefit allocations.',
       tags: ['Angular', '.NET API'],
       link: '#',
-      imageUrl: '/images/payroll_mgmt.jpg',
+      imageUrl: './images/payroll_mgmt.jpg',
       category: 'enterprise'
     },
     {
@@ -965,7 +965,7 @@ export class App implements OnInit, OnDestroy {
       functions: 'Enterprise HRMS Core Suite: Authored end-to-end recruitment pipelines, attendance/leave tracking engines, performance appraisal systems, dynamic organization chart builders, multi-tenant automated workflows, and template-driven notifications.',
       tags: ['.NET Framework', 'MVC', 'MySQL'],
       link: '#',
-      imageUrl: '/images/hr_mgmt.jpg',
+      imageUrl: './images/hr_mgmt.jpg',
       category: 'enterprise'
     }
   ];
