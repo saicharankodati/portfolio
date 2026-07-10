@@ -1,6 +1,6 @@
 {
-  "name": "Sai Charan Kodati",
-  "short_name": "Sai Charan Kodati",
+  "name": "portfolio",
+  "short_name": "portfolio",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
