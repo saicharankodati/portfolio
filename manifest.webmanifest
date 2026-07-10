@@ -1,9 +1,12 @@
 {
-  "name": "portfolio",
-  "short_name": "portfolio",
+  "name": "Sai Charan | Professional Developer Portfolio",
+  "short_name": "DevPortfolio",
+  "description": "An interactive, elegant and responsive developer portfolio showcasing projects, skills, academics, and experience.",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
+  "background_color": "#0f172a",
+  "theme_color": "#0ea5e9",
   "icons": [
     {
       "src": "icons/icon-72x72.png",

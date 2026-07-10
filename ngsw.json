@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1783688474742,
+  "timestamp": 1783690027017,
   "index": "/portfolio/index.html",
   "assetGroups": [
     {
@@ -13,9 +13,10 @@
       "urls": [
         "/portfolio/favicon.ico",
         "/portfolio/index.html",
-        "/portfolio/main-MEFYWSWM.js",
+        "/portfolio/main-FK6PCIIJ.js",
         "/portfolio/manifest.webmanifest",
-        "/portfolio/styles-5INURTSO.css"
+        "/portfolio/styles-H54AVUVA.css",
+        "/portfolio/sw.js"
       ],
       "patterns": []
     },
@@ -27,6 +28,9 @@
         "ignoreVary": true
       },
       "urls": [
+        "/portfolio/developer_avatar.jpg",
+        "/portfolio/icon-192.png",
+        "/portfolio/icon-512.png",
         "/portfolio/icons/icon-128x128.png",
         "/portfolio/icons/icon-144x144.png",
         "/portfolio/icons/icon-152x152.png",
@@ -34,26 +38,48 @@
         "/portfolio/icons/icon-384x384.png",
         "/portfolio/icons/icon-512x512.png",
         "/portfolio/icons/icon-72x72.png",
-        "/portfolio/icons/icon-96x96.png"
+        "/portfolio/icons/icon-96x96.png",
+        "/portfolio/images/healthcare_analytics.jpg",
+        "/portfolio/images/healthcare_config.jpg",
+        "/portfolio/images/hr_mgmt.jpg",
+        "/portfolio/images/iam_security.jpg",
+        "/portfolio/images/payroll_mgmt.jpg",
+        "/portfolio/images/product_lifecycle.jpg",
+        "/portfolio/images/sales_engagement.jpg",
+        "/portfolio/images/workflow_automation.jpg",
+        "/portfolio/portfolio_logo.jpg"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/portfolio/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/portfolio/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
-    "/portfolio/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
-    "/portfolio/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
-    "/portfolio/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
-    "/portfolio/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
-    "/portfolio/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
-    "/portfolio/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
-    "/portfolio/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/portfolio/index.html": "908c01be6c7ecfc90e9cd4de978cd9e04d4b9e64",
-    "/portfolio/main-MEFYWSWM.js": "5522d1beb137e1f7a59576ba99e0e772b15aaf05",
-    "/portfolio/manifest.webmanifest": "e693a515c4805a6ea051d443f2ba1d17f59573cc",
-    "/portfolio/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/portfolio/developer_avatar.jpg": "1874179f926d170c63d79da890f7679006eead08",
+    "/portfolio/favicon.ico": "d4db58bb8164c14639112c85e6a69551715aee9e",
+    "/portfolio/icon-192.png": "7b3cf4ee1f864de7dca6f94d27789e3bacaf3f56",
+    "/portfolio/icon-512.png": "f6f92d5c26787605d7ec70575d51b273631051d2",
+    "/portfolio/icons/icon-128x128.png": "5976c3953dfd9581a9afddf53774cb3e8116e01f",
+    "/portfolio/icons/icon-144x144.png": "3860b4f6301707a51500c70d5d87db2c0c5c764b",
+    "/portfolio/icons/icon-152x152.png": "8e6cf16f32b7c5841ca09401f5441a49fb9546f7",
+    "/portfolio/icons/icon-192x192.png": "7b3cf4ee1f864de7dca6f94d27789e3bacaf3f56",
+    "/portfolio/icons/icon-384x384.png": "e2ac20ffc05380bf213fabd465a1807de753d1fa",
+    "/portfolio/icons/icon-512x512.png": "f6f92d5c26787605d7ec70575d51b273631051d2",
+    "/portfolio/icons/icon-72x72.png": "b7dab08afec9fca139734408a4f1e69c10ad2dbe",
+    "/portfolio/icons/icon-96x96.png": "4a3bff61bda3af3e86f7b1e14dbd137bf3282f5f",
+    "/portfolio/images/healthcare_analytics.jpg": "d8f3b86f9f0005f01787a315479c5120dd0edbed",
+    "/portfolio/images/healthcare_config.jpg": "ce87344580efbc1423cbef0314cc060a32b1d3a3",
+    "/portfolio/images/hr_mgmt.jpg": "b36958cdf4464cc050eb92936c364e7a995d97a3",
+    "/portfolio/images/iam_security.jpg": "aa7d226318a83bc24795bc9a2f8895a66e6eb5b7",
+    "/portfolio/images/payroll_mgmt.jpg": "3c31ace70b88ee9295022b1e9f2e363bba9625cd",
+    "/portfolio/images/product_lifecycle.jpg": "874ad663175a1fdc3dd616e75369ec3fa8de8fc4",
+    "/portfolio/images/sales_engagement.jpg": "2b263e2bc00caadca93e2847ccda8dfc32e7a992",
+    "/portfolio/images/workflow_automation.jpg": "4863f4a1069bc03860986c9a0e3ff3dd55946a61",
+    "/portfolio/index.html": "6138c8672b61d993a3c08831ec940b66ba762dd5",
+    "/portfolio/main-FK6PCIIJ.js": "5dbb0ffdb21f375ccad199b262ac3d559ba56d95",
+    "/portfolio/manifest.webmanifest": "6d28a35803b1b50482be6bfa8b537beac75466c0",
+    "/portfolio/portfolio_logo.jpg": "acd9b3607d7fc756af5a05a06625b406011c007b",
+    "/portfolio/styles-H54AVUVA.css": "b51580082f29d5e84639b919d749274b4967e1d2",
+    "/portfolio/sw.js": "19b2558e384c20d5e0017167eadabc4efe86248c"
   },
   "navigationUrls": [
     {
