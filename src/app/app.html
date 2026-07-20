@@ -489,8 +489,9 @@
                         <mat-icon [class]="getCategoryIconClass(group.name)" class="!text-sm !w-4 !h-4 flex-shrink-0">
                           {{ 
                             group.name === 'Agentic AI Systems' ? 'psychology' :
+                            group.name === 'Blockchain Technologies' ? 'compare_arrows' :
                             group.name === 'Cloud & Infrastructure' ? 'cloud' :
-                            group.name === 'Software Architecture' ? 'architecture' :
+                            group.name === 'Software Architectures' ? 'architecture' :
                             group.name === 'Design Patterns' ? 'extension' :
                             group.name === 'Design Approaches' ? 'design_services' :
                             group.name === 'Development Methodologies' ? 'published_with_changes' :
@@ -498,10 +499,13 @@
                             group.name === 'Enterprise Messaging' ? 'forum' :
                             group.name === 'Programming Languages' ? 'code' :
                             group.name === 'Databases & Storage' ? 'storage' :
+                            group.name === 'Object Relational Mappings' ? 'link' :
                             group.name === 'Backend Frameworks' ? 'lan' :
                             group.name === 'Frontend Frameworks' ? 'web' :
+                            group.name === 'Cross Platform Application Development' ? 'devices' :
                             group.name === 'UI & Design Systems' ? 'palette' :
-                            group.name === 'Integration & Developer Tools' ? 'build' :
+                            group.name === 'Integrations' ? 'import_export' :
+                            group.name === 'Developer Tools' ? 'build' :
                             group.name === 'Business Intelligence' ? 'bar_chart' : 'label'
                           }}
                         </mat-icon>

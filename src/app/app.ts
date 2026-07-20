@@ -153,24 +153,28 @@ export class App implements OnInit, OnDestroy {
       skills: ['Multi-Agent Orchestration', 'Retrieval-Augmented Generation (RAG)', 'LLMOps', 'Intelligent Workflow Automation', 'Anomaly Detection']
     },
     {
-      name: 'Cloud & Infrastructure',
-      skills: ['Kubernetes', 'Docker', 'Service Mesh (Istio)', 'Microsoft Azure Cloud', 'Serverless Architecture', 'IoT Hub Systems']
+      name: 'Blockchain Technologies',
+      skills: ['Ethereum', 'Smart Contracts', 'dApps', 'Hyperledger Fabric', 'Solana']
     },
     {
-      name: 'Software Architecture',
-      skills: ['Clean Architecture', 'Microservices Architecture', 'Microfrontends', 'Event-Driven Systems', 'C4 Architectural Modeling']
+      name: 'Cloud & Infrastructure',
+      skills: ['Microsoft Azure Cloud', 'Serverless Architecture', 'DevOps', 'Kubernetes', 'Docker', 'Hypervisor', 'Service Mesh (Istio)', 'IoT Hub Systems', 'Cloud Cost Optimization']
+    },
+    {
+      name: 'Software Architectures',
+      skills: ['Clean Architecture', 'Event-Driven Systems Architecture', 'Microfrontends Architecture', 'Microservices Architecture', 'Client-Server Architecture', 'Monolithic Architecture', 'C4 Architectural Modeling']
     },
     {
       name: 'Design Patterns',
-      skills: ['CQRS Pattern', 'Event Sourcing', 'Mediator & CQRS', 'Structural Design Patterns', 'Creational & Behavioral Patterns']
+      skills: ['Command and Query Responsibility Segregation (CQRS)', 'Event Sourcing', 'Mediator', 'Observer', 'Factory', 'Abstract Factory', 'Adapter', 'Builder', 'Bridge', 'Decorator', 'Façade', 'Iterator', 'Singleton']
     },
     {
       name: 'Design Approaches',
-      skills: ['Domain-Driven Design (DDD)', 'API-First Design', 'Data-Driven Architecture', 'User Interface (UI) Driven Design']
+      skills: ['Domain-Driven Design (DDD)', 'API-First Design', 'Data-Driven Design', 'User Interface (UI) Driven Design']
     },
     {
       name: 'Development Methodologies',
-      skills: ['CI/CD Pipelines', 'Test-Driven Development (TDD)', 'Behavior-Driven Development (BDD)', 'Continuous Discovery']
+      skills: ['Continuous Integration & Continuous Delivery/Deployment(CI/CD)', 'Test-Driven Development (TDD)', 'Behavior-Driven Development (BDD)', 'Continuous Discovery']
     },
     {
       name: 'Identity & Security',
@@ -186,31 +190,43 @@ export class App implements OnInit, OnDestroy {
   foundationalSkills: SkillGroup[] = [
     {
       name: 'Programming Languages',
-      skills: ['C#', 'TypeScript', 'JavaScript', 'Python', 'Go', 'Rust', 'Java']
+      skills: ['C#', 'Python', 'Java', 'C++', 'C', 'TypeScript', 'JavaScript', 'Solidity']
     },
     {
       name: 'Databases & Storage',
-      skills: ['PostgreSQL', 'MS SQL Server', 'MongoDB', 'Cosmos DB', 'Snowflake', 'Google BigQuery', 'SQLite', 'IndexedDB']
+      skills: ['MS SQL Server', 'Mongo DB', 'Cosmos DB', 'MySQL', 'Oracle', 'SQLite', 'PostgreSQL', 'Indexed DB', 'Snowflake', 'Databricks']
+    },
+    {
+      name: 'Object Relational Mappings',
+      skills: ['Entity Framework', 'Dapper', 'SQLAlchemy', 'Hibernate', 'TypeORM', 'Prisma']
     },
     {
       name: 'Backend Frameworks',
-      skills: ['ASP.NET Core (Web API)', 'NestJS', 'Spring Boot', 'Node.js']
+      skills: ['ASP.Net Core - Minimal/Web API', 'ASP.Net - MVC/ MVVM', 'Django - Fast/Web API', ' Spring Boot - Web API', 'NestJS', 'Node.js', 'Firebase', 'Suppabase', 'Silverlight']
     },
     {
       name: 'Frontend Frameworks',
-      skills: ['Angular', 'Blazor', 'React', 'Vue.js', 'Svelte']
+      skills: ['Angular', 'Blazor', 'React', 'JQuery']
+    },
+    {
+      name: 'Cross Platform Application Development',
+      skills: ['Progressive Web Apps (PWA)', 'MAUI', 'Flutter', 'React Native', 'Xamarin']
     },
     {
       name: 'UI & Design Systems',
-      skills: ['Angular Material', 'Tailwind CSS', 'Bootstrap']
+      skills: ['Angular Material', 'Bootstrap', 'Tailwind', 'Telerik UI', 'Material UI', 'Fluent UI', 'Kendo UI']
     },
     {
-      name: 'Integration & Developer Tools',
-      skills: ['GitHub Copilot', 'Git & GitHub', 'Stripe API', 'Salesforce Integration', 'Twilio API', 'Zapier Automation']
+      name: 'Integrations',
+      skills: ['Stripe', 'Salesforce', 'Pipedrive', 'Zapier', 'Gmail', 'Office 365', 'Twilio', 'Intercom', 'Dev Express', 'Hang-fire', 'Seri-log']
+    },
+    {
+      name: 'Developer Tools',
+      skills: ['Git', 'GitHub', 'GitLab', 'Source Tree', 'Bitbucket', 'Visual Studio Code', 'Visual Studio IDE', 'JetBrains Rider', 'Postman', 'Fiddler', 'Swagger UI']
     },
     {
       name: 'Business Intelligence',
-      skills: ['Power BI', 'Tableau', 'DevExpress Reporting']
+      skills: ['Power BI', 'Tableau', 'DevExpress Reporting', 'DevExpress Dashboards']
     }
   ];
 
@@ -323,20 +339,24 @@ export class App implements OnInit, OnDestroy {
   getCategoryIconClass(name: string): string {
     const map: Record<string, string> = {
       'Agentic AI Systems': 'text-emerald-500 dark:text-emerald-400',
-      'Cloud & Infrastructure': 'text-sky-500 dark:text-sky-400',
-      'Software Architecture': 'text-indigo-500 dark:text-indigo-400',
-      'Design Patterns': 'text-amber-500 dark:text-amber-400',
-      'Design Approaches': 'text-purple-500 dark:text-purple-400',
-      'Development Methodologies': 'text-teal-500 dark:text-teal-400',
-      'Identity & Security': 'text-rose-500 dark:text-rose-400',
-      'Enterprise Messaging': 'text-cyan-500 dark:text-cyan-400',
+      'Blockchain Technologies': 'text-sky-500 dark:text-sky-400',
+      'Cloud & Infrastructure': 'text-indigo-500 dark:text-indigo-400',
+      'Software Architectures': 'text-amber-500 dark:text-amber-400',
+      'Design Patterns': 'text-purple-500 dark:text-purple-400',
+      'Design Approaches': 'text-teal-500 dark:text-teal-400',
+      'Development Methodologies': 'text-rose-500 dark:text-rose-400',
+      'Identity & Security': 'text-cyan-500 dark:text-cyan-400',
+      'Enterprise Messaging': 'text-emerald-500 dark:text-emerald-400',
       'Programming Languages': 'text-sky-500 dark:text-sky-400',
       'Databases & Storage': 'text-amber-600 dark:text-amber-400',
-      'Backend Frameworks': 'text-indigo-500 dark:text-indigo-400',
-      'Frontend Frameworks': 'text-rose-500 dark:text-rose-400',
-      'UI & Design Systems': 'text-pink-500 dark:text-pink-400',
-      'Integration & Developer Tools': 'text-emerald-500 dark:text-emerald-400',
-      'Business Intelligence': 'text-fuchsia-500 dark:text-fuchsia-400'
+      'Object Relational Mappings': 'text-indigo-500 dark:text-indigo-400',
+      'Backend Frameworks': 'text-rose-500 dark:text-rose-400',
+      'Frontend Frameworks': 'text-pink-500 dark:text-pink-400',
+      'Cross Platform Application Development': 'text-emerald-500 dark:text-emerald-400',
+      'UI & Design Systems': 'text-fuchsia-500 dark:text-fuchsia-400',
+      'Integrations': 'text-sky-500 dark:text-sky-400',
+      'Developer Tools': 'text-amber-600 dark:text-amber-400',
+      'Business Intelligence': 'text-indigo-500 dark:text-indigo-400'
     };
     return map[name] || 'text-sky-500 dark:text-sky-400';
   }
@@ -344,20 +364,24 @@ export class App implements OnInit, OnDestroy {
   getCategoryBorderClass(name: string): string {
     const map: Record<string, string> = {
       'Agentic AI Systems': 'border-l-4 border-l-emerald-500',
-      'Cloud & Infrastructure': 'border-l-4 border-l-sky-500',
-      'Software Architecture': 'border-l-4 border-l-indigo-500',
-      'Design Patterns': 'border-l-4 border-l-amber-500',
-      'Design Approaches': 'border-l-4 border-l-purple-500',
-      'Development Methodologies': 'border-l-4 border-l-teal-500',
-      'Identity & Security': 'border-l-4 border-l-rose-500',
-      'Enterprise Messaging': 'border-l-4 border-l-cyan-500',
+      'Blockchain Technologies': 'border-l-4 border-l-sky-500',
+      'Cloud & Infrastructure': 'border-l-4 border-l-indigo-500',
+      'Software Architectures': 'border-l-4 border-l-amber-500',
+      'Design Patterns': 'border-l-4 border-l-purple-500',
+      'Design Approaches': 'border-l-4 border-l-teal-500',
+      'Development Methodologies': 'border-l-4 border-l-rose-500',
+      'Identity & Security': 'border-l-4 border-l-cyan-500',
+      'Enterprise Messaging': 'border-l-4 border-l-emerald-500',
       'Programming Languages': 'border-l-4 border-l-sky-500',
       'Databases & Storage': 'border-l-4 border-l-amber-500',
-      'Backend Frameworks': 'border-l-4 border-l-indigo-500',
-      'Frontend Frameworks': 'border-l-4 border-l-rose-500',
-      'UI & Design Systems': 'border-l-4 border-l-pink-500',
-      'Integration & Developer Tools': 'border-l-4 border-l-emerald-500',
-      'Business Intelligence': 'border-l-4 border-l-fuchsia-500'
+      'Object Relational Mappings': 'border-l-4 border-l-indigo-500',
+      'Backend Frameworks': 'border-l-4 border-l-rose-500',
+      'Frontend Frameworks': 'border-l-4 border-l-pink-500',
+      'Cross Platform Application Development': 'border-l-4 border-l-emerald-500',
+      'UI & Design Systems': 'border-l-4 border-l-fuchsia-500',
+      'Integrations': 'border-l-4 border-l-sky-500',
+      'Developer Tools': 'border-l-4 border-l-amber-500',
+      'Business Intelligence': 'border-l-4 border-l-indigo-500'
     };
     return map[name] || 'border-l-4 border-l-sky-500';
   }
