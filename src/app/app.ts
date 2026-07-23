@@ -775,25 +775,25 @@ export class App implements OnInit, OnDestroy {
 
   experienceItems: ExperienceItem[] = [
     {
-      company: 'WynBI Solutions Pvt Ltd',
+      company: 'Right Angle Solutions, Inc',
       role: 'TECHNICAL LEAD',
       period: 'Sep 2021 - PRESENT',
       description: 'Steered technical strategy and full-stack systems design for high-concurrency enterprise products, designing modular cloud-native architectures, implementing server-side components, and mentoring high-performance engineering teams.'
     },
     {
-      company: 'Computer Generated Solutions Pvt Ltd',
+      company: 'Computer Generated Solutions, Inc',
       role: 'SENIOR SOFTWARE ENGINEER',
       period: 'Mar 2020 - Sep 2021',
       description: 'Led full-stack optimization initiatives, refactoring legacy codebases into modern single-page applications, architecting performant database queries, and streamlining development lifecycle with automated CI/CD pipelines.'
     },
     {
-      company: 'Appvirality Technologies Pvt Ltd',
+      company: 'Appvirality Technologies, Inc',
       role: 'SOFTWARE ENGINEER',
       period: 'Jun 2018 - Mar 2020',
       description: 'Owned end-to-end full-stack feature delivery, optimizing front-end bundle delivery, engineering real-time data synchronization mechanisms, and integrating secure third-party payment and SaaS platforms.'
     },
     {
-      company: 'Kensium Solutions Pvt Ltd',
+      company: 'Kensium Solutions, LLC',
       role: 'JUNIOR SOFTWARE ENGINEER',
       period: 'Jun 2015 - Jun 2018',
       description: 'Began professional career in full-stack engineering, building interactive responsive client interfaces and designing robust relational database schemas and scalable RESTful web APIs.'
@@ -821,9 +821,9 @@ export class App implements OnInit, OnDestroy {
     },
     {
       degree: 'Board of Secondary Education',
-      institution: 'Shanthiniketan High School',
+      institution: 'Shantiniketan High School',
       period: '2008',
-      description: 'Completed secondary education with high academic standing and a strong baseline focus on mathematics, science, and logical reasoning.'
+      description: 'Completed secondary education with  a strong baseline focus on mathematics, science, and logical reasoning.'
     }
   ];
 
@@ -840,7 +840,7 @@ export class App implements OnInit, OnDestroy {
       publication: 'Independent Research | IIIT - Hyderabad',
       date: '2019',
       link: '#',
-      abstract: 'Conducted an research study on the practical application of Cleanroom Software Engineering techniques for improving software quality in enterprise applications. The research evaluated methodologies including Box Structure Specification, Formal Design, Correctness Verification, and Code Inspection to reduce software defects, strengthen architectural quality, and improve maintainability without adopting the complete Cleanroom development lifecycle.'
+      abstract: 'Conducted a research study on the practical application of Cleanroom Software Engineering techniques for improving software quality in enterprise applications. The research evaluated methodologies including Box Structure Specification, Formal Design, Correctness Verification, and Code Inspection to reduce software defects, strengthen architectural quality, and improve maintainability without adopting the complete Cleanroom development lifecycle.'
     },
     {
       title: 'Risk-Aware Secure Routing Framework for Mobile Ad Hoc Networks (MANETs)',
@@ -894,7 +894,7 @@ export class App implements OnInit, OnDestroy {
       type: 'Project',
       clientOrOwner: 'Morris County Preservation Trust Fund',
       role: 'Technical Lead',
-      employer: 'WynBI Solutions Pvt Ltd',
+      employer: 'Right Angle Solutions, Inc',
       functions: 'Identity & Access Control Module: Architected and executed secure federated authentication, user migrations from Identity Server 4 to Microsoft Entra ID, token claims customization, and background directory synchronization workflows for internal and external constituents.',
       tags: ['Microsoft Azure', 'Service Principal', 'Token Configuration', 'User Groups', 'Angular', '.NET', 'Graph API'],
       link: '#',
@@ -907,7 +907,7 @@ export class App implements OnInit, OnDestroy {
       type: 'Project',
       clientOrOwner: 'Morris County Preservation Trust Fund',
       role: 'Lead Software Engineer',
-      employer: 'WynBI Solutions Pvt Ltd',
+      employer: 'Right Angle Solutions, Inc',
       functions: 'Fund Management & Process Automation Module: Engineered automated capital preservation workflows, dynamic notification services, CQRS-based financial state machines, and highly performant data-orchestration layers for public trust funds.',
       tags: ['Angular', '.NET API Microservices', 'Mediator', 'CQRS', 'SQL Server', 'Azure Functions', 'Blob Storage'],
       link: '#',
@@ -920,7 +920,7 @@ export class App implements OnInit, OnDestroy {
       type: 'Project',
       clientOrOwner: 'Vital Incite, Inc',
       role: 'Senior Software Engineer',
-      employer: 'WynBI Solutions Pvt Ltd',
+      employer: 'Right Angle Solutions, Inc',
       functions: 'Population Health Intelligence Engine: Delivered data-driven clinical strategy visualization tools, population wellness profiling systems, and complex statistical calculation engines to identify and mitigate employer healthcare risks.',
       tags: ['.NET Framework', 'MVC', 'Repository Pattern', 'SQL Server'],
       link: '#',
@@ -933,7 +933,7 @@ export class App implements OnInit, OnDestroy {
       type: 'Project',
       clientOrOwner: 'Vital Incite, Inc',
       role: 'Senior Software Engineer',
-      employer: 'WynBI Solutions Pvt Ltd',
+      employer: 'Right Angle Solutions, Inc',
       functions: 'Data Pipeline & Orchestration Portal: Designed reusable configuration modules, rule engines, and ETL metadata management structures for ingesting, transforming, and validating diverse healthcare claim sets.',
       tags: ['.NET Framework', 'MVC', 'Repository Pattern', 'SQL Server'],
       link: '#',
@@ -946,7 +946,7 @@ export class App implements OnInit, OnDestroy {
       type: 'Product',
       clientOrOwner: 'Computer Generated Solutions, Inc',
       role: 'Senior Software Engineer',
-      employer: 'Computer Generated Solutions Pvt Ltd',
+      employer: 'Computer Generated Solutions, Inc',
       functions: 'Textile Lifecycle & Supply Chain Suite: Programmed modular supply chain, style planning, dynamic product specification, and manufacturing logistics modules, modernizing legacy enterprise systems into responsive web applications.',
       tags: ['Angular', '.NET Framework', 'MVVM', 'SQL Server', 'Silverlight Migration'],
       link: '#',
@@ -957,9 +957,9 @@ export class App implements OnInit, OnDestroy {
       title: 'Sales Engagement Platform',
       name: 'Outplay',
       type: 'Product',
-      clientOrOwner: 'Appvirality, Inc',
+      clientOrOwner: 'Appvirality Technologies, Inc',
       role: 'Software Engineer',
-      employer: 'Appvirality Technologies Pvt Ltd',
+      employer: 'Appvirality Technologies, Inc',
       functions: 'Omnichannel Outreach & Telephony Engine: Built multi-channel sequencing modules (Email, SMS, Voice, LinkedIn actions), integrated email/calendar sync with open/reply tracking, Twilio-based telephony services, and secure billing platforms.',
       tags: ['Angular', '.NET API', 'Gmail', 'Microsoft 365', 'Twilio', 'Salesforce', 'Stripe'],
       link: '#',
@@ -972,7 +972,7 @@ export class App implements OnInit, OnDestroy {
       type: 'Project',
       clientOrOwner: 'SafeChoice, Inc',
       role: 'Junior Software Engineer',
-      employer: 'Kensium Solutions Pvt Ltd',
+      employer: 'Kensium Solutions, LLC',
       functions: 'Compensation & Tax Processing Portal: Designed high-precision calculation modules for payroll run execution, direct deposit processing, tax withholding calculations, and employee-employer benefit allocations.',
       tags: ['Angular', '.NET API'],
       link: '#',
@@ -985,7 +985,7 @@ export class App implements OnInit, OnDestroy {
       type: 'Product',
       clientOrOwner: 'Kensium Solutions, LLC',
       role: 'Junior Software Engineer',
-      employer: 'Kensium Solutions Pvt Ltd',
+      employer: 'Kensium Solutions, LLC',
       functions: 'Enterprise HRMS Core Suite: Authored end-to-end recruitment pipelines, attendance/leave tracking engines, performance appraisal systems, dynamic organization chart builders, multi-tenant automated workflows, and template-driven notifications.',
       tags: ['.NET Framework', 'MVC', 'MySQL'],
       link: '#',
