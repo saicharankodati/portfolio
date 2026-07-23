@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1784562645341,
+  "timestamp": 1784819030648,
   "index": "/portfolio/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/portfolio/favicon.ico",
         "/portfolio/index.html",
-        "/portfolio/main-AKS3NYDR.js",
+        "/portfolio/main-OVBDGAE7.js",
         "/portfolio/manifest.webmanifest",
         "/portfolio/styles-H54AVUVA.css",
         "/portfolio/sw.js"
@@ -74,8 +74,8 @@
     "/portfolio/images/product_lifecycle.jpg": "874ad663175a1fdc3dd616e75369ec3fa8de8fc4",
     "/portfolio/images/sales_engagement.jpg": "2b263e2bc00caadca93e2847ccda8dfc32e7a992",
     "/portfolio/images/workflow_automation.jpg": "4863f4a1069bc03860986c9a0e3ff3dd55946a61",
-    "/portfolio/index.html": "369a464232b7bc625a1803cde054d427307be3d6",
-    "/portfolio/main-AKS3NYDR.js": "c8b0aa5de03c21a7608e360cc1015a5598a399d6",
+    "/portfolio/index.html": "36075f99e234cb75a74a60f91696e03a54d37876",
+    "/portfolio/main-OVBDGAE7.js": "e6538b5574ada0837aa14530274c374a2c7a43f5",
     "/portfolio/manifest.webmanifest": "06d99ac1123e1b47d15ad025cd8a260823cef1e6",
     "/portfolio/portfolio_logo.jpg": "acd9b3607d7fc756af5a05a06625b406011c007b",
     "/portfolio/styles-H54AVUVA.css": "b51580082f29d5e84639b919d749274b4967e1d2",
