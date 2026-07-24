@@ -868,22 +868,22 @@ export class App implements OnInit, OnDestroy {
       name: 'Microsoft Certified DevOps Engineer Expert',
       issuer: 'Microsoft Corporation',
       date: '2026'
-    },
-    {
-      name: 'Microsoft Certified Azure Solutions Architect Expert',
-      issuer: 'Microsoft Corporation',
-      date: '2026'
-    },
-    {
-      name: 'Microsoft Certified Azure AI Engineer Associate',
-      issuer: 'Microsoft Corporation',
-      date: '2026'
-    },
-    {
-      name: 'Microsoft Certified Agentic AI Business Solutions Architect',
-      issuer: 'Microsoft Corporation',
-      date: '2026'
-    }
+    }//,
+    // {
+    //   name: 'Microsoft Certified Azure Solutions Architect Expert',
+    //   issuer: 'Microsoft Corporation',
+    //   date: '2026'
+    // },
+    // {
+    //   name: 'Microsoft Certified Azure AI Engineer Associate',
+    //   issuer: 'Microsoft Corporation',
+    //   date: '2026'
+    // },
+    // {
+    //   name: 'Microsoft Certified Agentic AI Business Solutions Architect',
+    //   issuer: 'Microsoft Corporation',
+    //   date: '2026'
+    // }
   ];
 
   // Match the user's provided project objects precisely
